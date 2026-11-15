@@ -21,6 +21,20 @@ python3 -m http.server 8000
 
 Depois acesse http://localhost:8000.
 
+## Versão demo (para apresentar à cliente)
+
+`demo/index.html` é uma cópia da página com dados fictícios de exemplo no lugar dos [COLCHETES] e uma faixa "Versão demonstrativa" no topo. Não aparece no Google (`noindex`). No GitHub Pages fica em:
+
+https://davimbraz-del.github.io/almeida-barros-/demo/
+
+Depois de mexer no `index.html`, gere a demo de novo:
+
+```bash
+python3 tools/gerar-demo.py
+```
+
+Os botões de WhatsApp e telefone da demo apontam de propósito para números inválidos, para ninguém ligar para um número real por engano. Quando o site oficial estiver aprovado, a pasta `demo/` pode ser apagada.
+
 ## O que trocar antes de publicar
 
 Tudo que falta está entre **[COLCHETES]** no código. Procure por `[EDITAR]` e `[TROCAR]` nos comentários do HTML.
