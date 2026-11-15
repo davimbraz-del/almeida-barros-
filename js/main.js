@@ -45,6 +45,7 @@
       menuToggle.setAttribute('aria-expanded', String(open));
       menu.classList.toggle('is-open', open);
       header.classList.toggle('is-open', open);
+      root.classList.toggle('menu-open', open);
       if (open) {
         var first = $('a', menu);
         if (first) first.focus();

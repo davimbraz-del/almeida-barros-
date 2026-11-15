@@ -47,7 +47,7 @@ Os arquivos em `assets/img/` com câmera desenhada são placeholders e já dizem
 
 - `hero-atendimento.svg`: atendimento humanizado, retrato 5:6, mínimo 1000 × 1200 px
 - `sobre-escritorio.svg`: fachada ou recepção, 4:3, mínimo 1200 × 900 px
-- `galeria-1.svg`, `galeria-2.svg`: quadradas, 800 × 800 px
+- `galeria-1.svg`, `galeria-2.svg`: paisagem 16:9, mínimo 1200 × 675 px
 - `video-capa.svg`: capa do vídeo, 16:9
 - `equipe-1..4.svg`: retratos 4:5, 600 × 750 px
 
