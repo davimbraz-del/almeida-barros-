@@ -1,0 +1,600 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-15T23:22:17Z",
+  "title": "Design System: Almeida Barros – Corretora de Seguros",
+  "extensions": {
+    "colorMeta": {
+      "navy": {
+        "role": "primary",
+        "displayName": "Brokerage Navy",
+        "canonical": "#1B2A4E",
+        "tonalRamp": [
+          "#050B18",
+          "#1A2338",
+          "#323F5C",
+          "#4D5D81",
+          "#6B7DA5",
+          "#8E9EC1",
+          "#B7C4E1",
+          "#E7EFFF"
+        ]
+      },
+      "deep": {
+        "role": "primary",
+        "displayName": "Night Navy",
+        "canonical": "#121C36",
+        "tonalRamp": [
+          "#070B15",
+          "#1D2434",
+          "#363F55",
+          "#515D79",
+          "#707D9B",
+          "#929EB9",
+          "#BAC4DA",
+          "#E8EFFE"
+        ]
+      },
+      "blue": {
+        "role": "secondary",
+        "displayName": "Tarja Blue",
+        "canonical": "#1E88D2",
+        "tonalRamp": [
+          "#000C1B",
+          "#012641",
+          "#03436D",
+          "#00629D",
+          "#2383C8",
+          "#5DA5E1",
+          "#92CBFC",
+          "#E1F1FF"
+        ]
+      },
+      "blue-aa": {
+        "role": "secondary",
+        "displayName": "Action Blue",
+        "canonical": "#1A76BE",
+        "tonalRamp": [
+          "#000C1B",
+          "#012544",
+          "#004271",
+          "#0B61A0",
+          "#3282C7",
+          "#64A4DF",
+          "#97CAFA",
+          "#E2F0FF"
+        ]
+      },
+      "blue-aa-hover": {
+        "role": "secondary",
+        "displayName": "Action Blue Pressed",
+        "canonical": "#155F9C",
+        "tonalRamp": [
+          "#000C1C",
+          "#012544",
+          "#0F426D",
+          "#236198",
+          "#4281BE",
+          "#6EA3D7",
+          "#9EC9F4",
+          "#E2F0FF"
+        ]
+      },
+      "link": {
+        "role": "secondary",
+        "displayName": "Link Blue",
+        "canonical": "#1668AB",
+        "tonalRamp": [
+          "#000C1C",
+          "#002545",
+          "#064270",
+          "#1B619C",
+          "#3B81C2",
+          "#6AA3DC",
+          "#9BC9F7",
+          "#E2F0FF"
+        ]
+      },
+      "sky": {
+        "role": "tertiary",
+        "displayName": "Celeste",
+        "canonical": "#3DB4E8",
+        "tonalRamp": [
+          "#000D15",
+          "#002839",
+          "#024660",
+          "#00668A",
+          "#0689B7",
+          "#55AAD2",
+          "#8ECEEF",
+          "#DDF2FE"
+        ]
+      },
+      "gold": {
+        "role": "tertiary",
+        "displayName": "Seal Sand",
+        "canonical": "#C9B27C",
+        "tonalRamp": [
+          "#110A00",
+          "#2D2206",
+          "#4D3E19",
+          "#6E5B2D",
+          "#8F7B4A",
+          "#AE9D73",
+          "#D1C3A1",
+          "#F8EED5"
+        ]
+      },
+      "whatsapp": {
+        "role": "tertiary",
+        "displayName": "WhatsApp Green",
+        "canonical": "#1DA851",
+        "tonalRamp": [
+          "#001003",
+          "#002D0F",
+          "#014E20",
+          "#007131",
+          "#0D9645",
+          "#59B570",
+          "#91D89F",
+          "#CBFED4"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "canonical": "#FFFFFF",
+        "tonalRamp": [
+          "#0B0B0B",
+          "#242424",
+          "#404040",
+          "#5D5D5D",
+          "#7D7D7D",
+          "#9E9E9E",
+          "#C4C4C4",
+          "#EEEEEE"
+        ]
+      },
+      "ice": {
+        "role": "neutral",
+        "displayName": "Ice",
+        "canonical": "#EEF6FC",
+        "tonalRamp": [
+          "#080C0F",
+          "#1F2529",
+          "#394147",
+          "#555F67",
+          "#747F88",
+          "#96A0A7",
+          "#BDC5CC",
+          "#E9EFF4"
+        ]
+      },
+      "ice-2": {
+        "role": "neutral",
+        "displayName": "Deep Ice",
+        "canonical": "#DCE9F5",
+        "tonalRamp": [
+          "#080C0F",
+          "#1F252A",
+          "#394148",
+          "#555F68",
+          "#747F89",
+          "#96A0A9",
+          "#BDC5CD",
+          "#E9EFF5"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#D3E2F0",
+        "tonalRamp": [
+          "#070C10",
+          "#1E252B",
+          "#384149",
+          "#535F6A",
+          "#727F8B",
+          "#95A0AA",
+          "#BCC5CE",
+          "#E9EFF6"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Slate Ink",
+        "canonical": "#4A5878",
+        "tonalRamp": [
+          "#070B16",
+          "#1C2434",
+          "#353F56",
+          "#505D7A",
+          "#6F7D9D",
+          "#929EBB",
+          "#B9C4DC",
+          "#E7EFFF"
+        ]
+      },
+      "on-dark-2": {
+        "role": "neutral",
+        "displayName": "Mist",
+        "canonical": "#BFD3EA",
+        "tonalRamp": [
+          "#060C12",
+          "#1C252F",
+          "#35414F",
+          "#4F5F71",
+          "#6E7F93",
+          "#91A0B2",
+          "#B9C6D4",
+          "#E6F0FA"
+        ]
+      },
+      "navy-2": {
+        "role": "neutral",
+        "displayName": "Band Navy",
+        "canonical": "#22355F",
+        "tonalRamp": [
+          "#050A1A",
+          "#18233B",
+          "#303F5F",
+          "#495D86",
+          "#677DAA",
+          "#8B9FC6",
+          "#B4C4E5",
+          "#E7EFFF"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero H1 only: uppercase, white on night navy, one tarja word."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Every section title: uppercase, one tarja word."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Profile panel headings."
+      },
+      "title-sm": {
+        "displayName": "Title Small",
+        "purpose": "Card and step titles; team, values and contact headings at smaller sizes."
+      },
+      "motto": {
+        "displayName": "Motto",
+        "purpose": "The hero promise line; footer motto at text size."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running copy, 32-40rem measures."
+      },
+      "body-lead": {
+        "displayName": "Body Lead",
+        "purpose": "Section intros in slate, capped at 40rem."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Buttons, tabs, menu toggle, card links, FAQ launcher."
+      },
+      "label-caps": {
+        "displayName": "Label Caps",
+        "purpose": "Footer column headings; logotype tagline variant."
+      },
+      "hand": {
+        "displayName": "Hand",
+        "purpose": "The single handwritten word \"humano\", celeste, rotated -4deg."
+      }
+    },
+    "shadows": [
+      {
+        "name": "rest",
+        "value": "0 1px 2px rgba(18, 28, 54, 0.05), 0 6px 16px -6px rgba(27, 42, 78, 0.1)",
+        "purpose": "Cards, team cards, contact list, map, \"them\" chat bubble at rest."
+      },
+      {
+        "name": "raised",
+        "value": "0 2px 6px rgba(18, 28, 54, 0.06), 0 18px 36px -12px rgba(27, 42, 78, 0.22)",
+        "purpose": "Card hover, about photo, map card, FAQ launcher, skip link, partner hover."
+      },
+      {
+        "name": "deep",
+        "value": "0 30px 60px -18px rgba(8, 14, 30, 0.55)",
+        "purpose": "Hero portrait, FAQ panel (plus 0 0 0 1px rgba(27, 42, 78, 0.06)), video play disc."
+      },
+      {
+        "name": "button-glow",
+        "value": "0 10px 20px -10px rgba(8, 14, 30, 0.55)",
+        "purpose": "Primary buttons only."
+      },
+      {
+        "name": "seal-drop",
+        "value": "0 14px 28px -10px rgba(0, 0, 0, 0.55)",
+        "purpose": "The \"+40\" seal over the dark hero."
+      },
+      {
+        "name": "whatsapp-drop",
+        "value": "0 12px 26px -8px rgba(12, 20, 40, 0.5)",
+        "purpose": "Floating WhatsApp button."
+      },
+      {
+        "name": "header-scrolled",
+        "value": "0 10px 30px -18px rgba(0, 0, 0, 0.6)",
+        "purpose": "Fixed header once scrolled past 12px (with 93% night navy and blur(14px) saturate(1.2))."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The one easing curve for every entrance, lift and wipe."
+      },
+      {
+        "name": "tarja-wipe",
+        "value": "transform scaleX(0 -> 1) 0.85s ease-out, origin left; word color to white 0.35s after 0.2s delay",
+        "purpose": "Signature: the tarja draws under its word once as a title enters view (hero title at 450ms after load)."
+      },
+      {
+        "name": "reveal",
+        "value": "opacity 0.7s + translate 18px -> 0 0.8s ease-out, stagger 70ms per item",
+        "purpose": "Steps, cards and team cards entering view (IntersectionObserver, threshold 0.15, rootMargin bottom -12%)."
+      },
+      {
+        "name": "hero-assemble",
+        "value": "legs rise 48px 1s at 0 / 0.08 / 0.16s; strokes slide from -40px at 0.35 / 0.42 / 0.49s; photo rises at 0.2s",
+        "purpose": "The A builds itself behind the portrait on load."
+      },
+      {
+        "name": "seal-stamp",
+        "value": "from scale 1.25, rotate -20deg, opacity 0; 0.7s ease-out at 0.75s",
+        "purpose": "The \"+40\" seal lands last."
+      },
+      {
+        "name": "card-lift",
+        "value": "translateY(-4px) + shadow rest -> raised, 0.4s ease-out; corner stripes to 85% and shift 22px over 0.6s",
+        "purpose": "Insurance card hover."
+      },
+      {
+        "name": "button-press",
+        "value": "hover translateY(-1px); active scale(0.98); 0.25s ease-out",
+        "purpose": "All buttons."
+      },
+      {
+        "name": "panel-in",
+        "value": "opacity 0 + translate 10px -> 0, 0.45s ease-out",
+        "purpose": "Profile panel swap on tab change."
+      },
+      {
+        "name": "faq-in",
+        "value": "opacity 0, scale 0.94, translate 10px -> rest; 0.35s ease-out, origin bottom right",
+        "purpose": "FAQ panel opening."
+      },
+      {
+        "name": "nav-underline",
+        "value": "scaleX(0 -> 1) 0.35s ease-out from left, 2px celeste",
+        "purpose": "Desktop nav link hover."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "all durations 0.01ms; reveals shown in final state; tarjas fully painted",
+        "purpose": "prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "team-stack",
+        "value": "480px"
+      },
+      {
+        "name": "actions-row",
+        "value": "560px"
+      },
+      {
+        "name": "grid-2",
+        "value": "600px"
+      },
+      {
+        "name": "tabs-row",
+        "value": "700px"
+      },
+      {
+        "name": "partners-4",
+        "value": "720px"
+      },
+      {
+        "name": "gutter-md",
+        "value": "768px"
+      },
+      {
+        "name": "steps-3",
+        "value": "860px"
+      },
+      {
+        "name": "panel-split",
+        "value": "900px"
+      },
+      {
+        "name": "hero-split",
+        "value": "960px"
+      },
+      {
+        "name": "grid-3",
+        "value": "1000px"
+      },
+      {
+        "name": "nav-desktop",
+        "value": "1024px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Action Blue call to action, usually carrying the WhatsApp glyph; 48px default, 56px large, 44px small.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z\"/></svg>Solicitar orçamento sem compromisso</a>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem; min-height: 48px; padding: 0.8rem 1.4rem; border: 0; border-radius: 14px; background: var(--blue-aa, #1A76BE); color: #FFFFFF; font-family: \"Montserrat\", sans-serif; font-weight: 700; font-size: 0.95rem; line-height: 1.3; letter-spacing: 0.01em; text-decoration: none; cursor: pointer; box-shadow: 0 10px 20px -10px rgba(8, 14, 30, 0.55); transition: background-color 0.2s, transform 0.25s cubic-bezier(0.16, 1, 0.3, 1); } .ds-btn-primary svg { width: 1.3em; height: 1.3em; flex: none; } .ds-btn-primary:hover { background: var(--blue-aa-hover, #155F9C); transform: translateY(-1px); } .ds-btn-primary:active { transform: scale(0.98); } .ds-btn-primary:focus-visible { outline: 3px solid var(--blue-aa, #1A76BE); outline-offset: 3px; }"
+    },
+    {
+      "name": "Light Button (on navy)",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "White button with navy text used on the navy profile panel; hover turns ice, focus ring turns celeste on dark.",
+      "html": "<div class=\"ds-on-navy\"><a class=\"ds-btn-light\" href=\"#\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z\"/></svg>Falar sobre a minha família</a></div>",
+      "css": ".ds-on-navy { padding: 28px; background: var(--navy, #1B2A4E); border-radius: 20px; } .ds-btn-light { display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem; min-height: 48px; padding: 0.8rem 1.4rem; border-radius: 14px; background: #FFFFFF; color: var(--navy, #1B2A4E); font-family: \"Montserrat\", sans-serif; font-weight: 700; font-size: 0.95rem; line-height: 1.3; letter-spacing: 0.01em; text-decoration: none; transition: background-color 0.2s, transform 0.25s cubic-bezier(0.16, 1, 0.3, 1); } .ds-btn-light svg { width: 1.3em; height: 1.3em; flex: none; } .ds-btn-light:hover { background: var(--ice, #EEF6FC); transform: translateY(-1px); } .ds-btn-light:active { transform: scale(0.98); } .ds-btn-light:focus-visible { outline: 3px solid var(--sky, #3DB4E8); outline-offset: 3px; }"
+    },
+    {
+      "name": "Site Header (desktop)",
+      "kind": "nav",
+      "refersTo": "site-header",
+      "description": "Fixed night-navy bar: logo and uppercase logotype, mist Inter links with a celeste underline wipe, small primary CTA.",
+      "html": "<header class=\"ds-header\"><a class=\"ds-brand\" href=\"#\"><svg class=\"ds-logo\" viewBox=\"0 0 72 64\" aria-hidden=\"true\"><polygon fill=\"#3DB4E8\" points=\"23,4 27,4 9,60 5,60\"/><polygon fill=\"#FFFFFF\" points=\"30,4 38,4 20,60 12,60\"/><polygon fill=\"#3DB4E8\" points=\"40,4 48,4 66,60 58,60\"/><rect fill=\"#FFFFFF\" x=\"26\" y=\"37\" width=\"26\" height=\"3\"/><rect fill=\"#3DB4E8\" x=\"24\" y=\"43\" width=\"30\" height=\"3\"/><rect fill=\"#FFFFFF\" x=\"22\" y=\"49\" width=\"34\" height=\"3\"/></svg><span class=\"ds-brand-text\"><span class=\"ds-brand-name\">Almeida Barros</span><span class=\"ds-brand-tag\">Corretora de Seguros</span></span></a><nav class=\"ds-nav\"><a href=\"#\">Seguros</a><a href=\"#\">Como Funciona</a><a href=\"#\">Equipe</a><a href=\"#\">Contato</a><a class=\"ds-nav-cta\" href=\"#\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z\"/></svg>Fazer cotação</a></nav></header>",
+      "css": ".ds-header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; height: 80px; padding: 0 32px; background: var(--deep, #121C36); color: #FFFFFF; } .ds-brand { display: inline-flex; align-items: center; gap: 0.65rem; color: #FFFFFF; text-decoration: none; } .ds-logo { width: 45px; height: 40px; } .ds-brand-text { display: flex; flex-direction: column; line-height: 1.1; white-space: nowrap; } .ds-brand-name { font-family: \"Montserrat\", sans-serif; font-weight: 800; font-size: 1.05rem; letter-spacing: 0.05em; text-transform: uppercase; } .ds-brand-tag { margin-top: 0.2rem; font-family: \"Montserrat\", sans-serif; font-weight: 600; font-size: 0.6875rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--sky, #3DB4E8); } .ds-nav { display: flex; align-items: center; gap: 1.75rem; } .ds-nav > a:not(.ds-nav-cta) { position: relative; display: inline-flex; align-items: center; min-height: 44px; font-family: \"Inter\", sans-serif; font-weight: 500; font-size: 0.95rem; color: var(--on-dark-2, #BFD3EA); text-decoration: none; transition: color 0.2s; } .ds-nav > a:not(.ds-nav-cta)::after { content: \"\"; position: absolute; left: 0; right: 0; bottom: 8px; height: 2px; background: var(--sky, #3DB4E8); transform: scaleX(0); transform-origin: left; transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1); } .ds-nav > a:not(.ds-nav-cta):hover { color: #FFFFFF; } .ds-nav > a:not(.ds-nav-cta):hover::after { transform: scaleX(1); } .ds-nav a:focus-visible { outline: 3px solid var(--sky, #3DB4E8); outline-offset: 3px; border-radius: 6px; } .ds-nav-cta { display: inline-flex; align-items: center; gap: 0.6rem; min-height: 44px; padding: 0.6rem 1.05rem; border-radius: 14px; background: var(--blue-aa, #1A76BE); color: #FFFFFF; font-family: \"Montserrat\", sans-serif; font-weight: 700; font-size: 0.9rem; text-decoration: none; transition: background-color 0.2s, transform 0.25s cubic-bezier(0.16, 1, 0.3, 1); } .ds-nav-cta svg { width: 1.3em; height: 1.3em; } .ds-nav-cta:hover { background: var(--blue-aa-hover, #155F9C); transform: translateY(-1px); }"
+    },
+    {
+      "name": "Tarja Title",
+      "kind": "custom",
+      "refersTo": "tarja",
+      "description": "Signature heading: Montserrat 800 uppercase with exactly one word on a Tarja Blue parallelogram that wipes in from the left.",
+      "html": "<h2 class=\"ds-title\">Qual seguro você <span class=\"ds-tarja\">procura</span><span class=\"ds-tarja-punct\">?</span></h2>",
+      "css": ".ds-title { margin: 0; font-family: \"Montserrat\", sans-serif; font-weight: 800; font-size: clamp(1.7rem, 1.15rem + 2.3vw, 2.75rem); line-height: 1.16; letter-spacing: 0.005em; text-transform: uppercase; color: var(--navy, #1B2A4E); text-wrap: balance; } .ds-tarja { position: relative; z-index: 0; display: inline-block; padding: 0 0.32em; margin-inline: 0.02em; color: #FFFFFF; white-space: nowrap; } .ds-tarja::before { content: \"\"; position: absolute; inset: 0.04em 0 0.02em; z-index: -1; background: var(--blue, #1E88D2); clip-path: polygon(0.3em 0, 100% 0, calc(100% - 0.3em) 100%, 0 100%); transform-origin: left center; animation: ds-tarja-wipe 0.85s cubic-bezier(0.16, 1, 0.3, 1) 0.3s both; } .ds-tarja-punct { margin-left: -0.14em; } @keyframes ds-tarja-wipe { from { transform: scaleX(0); } } @media (prefers-reduced-motion: reduce) { .ds-tarja::before { animation: none; } }"
+    },
+    {
+      "name": "Insurance Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "White 16px card with an ice icon tile, slate copy, a stretched \"Quero cotar\" link and a 108deg celeste stripe corner that brightens on hover.",
+      "html": "<article class=\"ds-card\"><div class=\"ds-card-head\"><span class=\"ds-card-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z\"/><path d=\"M3.5 12h5l1.5-2.5 2.5 5 1.5-2.5h6\"/></svg></span><h3 class=\"ds-card-title\">Plano de Saúde</h3></div><p class=\"ds-card-text\">Individual, familiar ou empresarial. Comparamos rede de atendimento, coberturas e preço para você escolher com segurança.</p><a class=\"ds-card-link\" href=\"#\">Quero cotar<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12h14\"/><path d=\"m13 6 6 6-6 6\"/></svg></a></article>",
+      "css": ".ds-card { position: relative; display: flex; flex-direction: column; gap: 0.55rem; max-width: 360px; padding: 1.6rem 1.5rem 1.4rem; overflow: hidden; background: #FFFFFF; border-radius: 16px; box-shadow: 0 1px 2px rgba(18, 28, 54, 0.05), 0 6px 16px -6px rgba(27, 42, 78, 0.1); transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1); } .ds-card::before { content: \"\"; position: absolute; top: 0; right: 0; width: 96px; height: 96px; background: repeating-linear-gradient(108deg, var(--sky, #3DB4E8) 0 3px, transparent 3px 11px); clip-path: polygon(0 0, 100% 0, 100% 100%); opacity: 0.35; transition: opacity 0.4s, background-position 0.6s cubic-bezier(0.16, 1, 0.3, 1); } .ds-card:hover { transform: translateY(-4px); box-shadow: 0 2px 6px rgba(18, 28, 54, 0.06), 0 18px 36px -12px rgba(27, 42, 78, 0.22); } .ds-card:hover::before { opacity: 0.85; background-position: 22px 0; } .ds-card:focus-within { box-shadow: 0 0 0 3px var(--blue-aa, #1A76BE), 0 2px 6px rgba(18, 28, 54, 0.06), 0 18px 36px -12px rgba(27, 42, 78, 0.22); } .ds-card-head { display: flex; align-items: center; gap: 0.85rem; padding-right: 3.5rem; margin-bottom: 0.25rem; } .ds-card-icon { display: grid; place-items: center; flex: none; width: 46px; height: 46px; border-radius: 12px; background: var(--ice, #EEF6FC); color: var(--blue-aa, #1A76BE); } .ds-card-icon svg { width: 24px; height: 24px; } .ds-card-title { margin: 0; font-family: \"Montserrat\", sans-serif; font-weight: 700; font-size: 1.2rem; line-height: 1.3; color: var(--navy, #1B2A4E); } .ds-card-text { flex: 1; margin: 0; font-family: \"Inter\", sans-serif; font-size: 1rem; line-height: 1.65; color: var(--ink-2, #4A5878); } .ds-card-link { display: inline-flex; align-items: center; gap: 0.35rem; margin-top: 0.4rem; font-family: \"Montserrat\", sans-serif; font-weight: 700; font-size: 0.95rem; color: var(--link, #1668AB); text-decoration: none; } .ds-card-link::after { content: \"\"; position: absolute; inset: 0; border-radius: inherit; } .ds-card-link:focus-visible { outline: none; } .ds-card-link svg { width: 1.25em; height: 1.25em; transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1); } .ds-card:hover .ds-card-link svg { transform: translateX(4px); }"
+    },
+    {
+      "name": "Profile Tabs",
+      "kind": "custom",
+      "refersTo": "profile-tab",
+      "description": "Profile selector: white hairline tabs, Action Blue on hover, navy fill with celeste icon when selected.",
+      "html": "<div class=\"ds-tabs\" role=\"tablist\" aria-label=\"Perfis\"><button class=\"ds-tab\" role=\"tab\" aria-selected=\"true\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\"/><circle cx=\"9\" cy=\"7\" r=\"4\"/><path d=\"M22 21v-2a4 4 0 0 0-3-3.87\"/><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"/></svg>Família</button><button class=\"ds-tab\" role=\"tab\" aria-selected=\"false\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16\"/><rect x=\"2\" y=\"6\" width=\"20\" height=\"14\" rx=\"2\"/></svg>Empresa ou MEI</button><button class=\"ds-tab\" role=\"tab\" aria-selected=\"false\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z\"/></svg>Melhor idade</button></div>",
+      "css": ".ds-tabs { display: flex; flex-wrap: wrap; gap: 0.5rem; } .ds-tab { display: inline-flex; align-items: center; gap: 0.5rem; min-height: 48px; padding: 0.7rem 1.1rem; border: 1.5px solid var(--line, #D3E2F0); border-radius: 14px; background: #FFFFFF; color: var(--navy, #1B2A4E); font-family: \"Montserrat\", sans-serif; font-weight: 700; font-size: 0.95rem; white-space: nowrap; cursor: pointer; transition: background-color 0.2s, border-color 0.2s, color 0.2s; } .ds-tab svg { width: 1.25em; height: 1.25em; } .ds-tab:hover { border-color: var(--blue-aa, #1A76BE); color: var(--blue-aa, #1A76BE); } .ds-tab[aria-selected=\"true\"] { background: var(--navy, #1B2A4E); border-color: var(--navy, #1B2A4E); color: #FFFFFF; } .ds-tab[aria-selected=\"true\"] svg { color: var(--sky, #3DB4E8); } .ds-tab:focus-visible { outline: 3px solid var(--blue-aa, #1A76BE); outline-offset: 3px; }"
+    },
+    {
+      "name": "FAQ Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Pill question choice in the FAQ widget: white, hairline border, Action Blue on hover.",
+      "html": "<div class=\"ds-chips\"><button class=\"ds-chip\" type=\"button\">Como cotar?</button><button class=\"ds-chip\" type=\"button\">Quais seguros vocês fazem?</button><button class=\"ds-chip\" type=\"button\">Horários</button></div>",
+      "css": ".ds-chips { display: flex; flex-wrap: wrap; gap: 0.45rem; } .ds-chip { min-height: 40px; padding: 0.45rem 0.85rem; border: 1.5px solid var(--line, #D3E2F0); border-radius: 999px; background: #FFFFFF; color: var(--navy, #1B2A4E); font-family: \"Inter\", sans-serif; font-size: 0.875rem; font-weight: 600; cursor: pointer; transition: border-color 0.2s, color 0.2s; } .ds-chip:hover { border-color: var(--blue-aa, #1A76BE); color: var(--blue-aa, #1A76BE); } .ds-chip:focus-visible { outline: 3px solid var(--blue-aa, #1A76BE); outline-offset: 3px; }"
+    },
+    {
+      "name": "Step Marker with Triple Strokes",
+      "kind": "custom",
+      "refersTo": "step-marker",
+      "description": "Parallelogram number plates stepping navy, Action Blue, Tarja Blue, linked by the logo crossbar triple strokes.",
+      "html": "<ol class=\"ds-steps\"><li><span class=\"ds-step-num\">1</span><span class=\"ds-strokes\"></span></li><li><span class=\"ds-step-num ds-step-num--2\">2</span><span class=\"ds-strokes\"></span></li><li><span class=\"ds-step-num ds-step-num--3\">3</span></li></ol>",
+      "css": ".ds-steps { display: flex; align-items: flex-start; gap: 1.5rem; margin: 0; padding: 0; list-style: none; } .ds-steps li { display: flex; align-items: center; gap: 1.25rem; } .ds-step-num { display: grid; place-items: center; width: 58px; height: 56px; background: var(--navy, #1B2A4E); color: #FFFFFF; font-family: \"Montserrat\", sans-serif; font-weight: 800; font-size: 1.6rem; font-variant-numeric: tabular-nums; clip-path: polygon(15px 0, 100% 0, calc(100% - 15px) 100%, 0 100%); } .ds-step-num--2 { background: var(--blue-aa, #1A76BE); } .ds-step-num--3 { background: var(--blue, #1E88D2); } .ds-strokes { display: block; width: 120px; height: 12px; background: linear-gradient(var(--navy, #1B2A4E), var(--navy, #1B2A4E)) 0 0 / 100% 2px no-repeat, linear-gradient(var(--sky, #3DB4E8), var(--sky, #3DB4E8)) 0 5px / 88% 2px no-repeat, linear-gradient(var(--navy, #1B2A4E), var(--navy, #1B2A4E)) 0 10px / 76% 2px no-repeat; }"
+    },
+    {
+      "name": "\"+40\" Seal",
+      "kind": "custom",
+      "refersTo": "seal",
+      "description": "The only gold in the system: a rotated sand circle with an inner navy ring that stamps in over the hero portrait.",
+      "html": "<div class=\"ds-seal-stage\"><p class=\"ds-seal\"><span class=\"ds-seal-num\">+40</span><span class=\"ds-seal-label\">anos de experiência</span></p></div>",
+      "css": ".ds-seal-stage { display: grid; place-items: center; padding: 32px; background: var(--deep, #121C36); border-radius: 20px; } .ds-seal { position: relative; display: grid; place-content: center; width: 120px; height: 120px; margin: 0; border-radius: 50%; background: var(--gold, #C9B27C); color: var(--navy, #1B2A4E); text-align: center; rotate: -8deg; box-shadow: 0 14px 28px -10px rgba(0, 0, 0, 0.55); animation: ds-stamp 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.3s both; } .ds-seal::after { content: \"\"; position: absolute; inset: 6px; border: 1.5px solid rgba(27, 42, 78, 0.4); border-radius: 50%; } .ds-seal-num { font-family: \"Montserrat\", sans-serif; font-weight: 800; font-size: 2.2rem; line-height: 1; letter-spacing: -0.02em; } .ds-seal-label { display: block; max-width: 9ch; margin: 0.25rem auto 0; font-family: \"Montserrat\", sans-serif; font-weight: 700; font-size: 0.6875rem; line-height: 1.2; letter-spacing: 0.04em; text-transform: uppercase; } @keyframes ds-stamp { from { opacity: 0; scale: 1.25; rotate: -20deg; } } @media (prefers-reduced-motion: reduce) { .ds-seal { animation: none; } }"
+    },
+    {
+      "name": "Floating WhatsApp Button",
+      "kind": "button",
+      "refersTo": "whatsapp-float",
+      "description": "The only green in the system: a 60px fixed circle with a white glyph and a hover label.",
+      "html": "<a class=\"ds-wa\" href=\"#\" aria-label=\"Falar no WhatsApp\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z\"/></svg><span class=\"ds-wa-label\" aria-hidden=\"true\">Fale com a gente</span></a>",
+      "css": ".ds-wa { position: relative; display: grid; place-items: center; width: 60px; height: 60px; margin-left: 160px; border-radius: 50%; background: var(--whatsapp, #1DA851); color: #FFFFFF; box-shadow: 0 12px 26px -8px rgba(12, 20, 40, 0.5); transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.2s; } .ds-wa svg { width: 30px; height: 30px; } .ds-wa:hover { transform: scale(1.06); background: #178A43; } .ds-wa:focus-visible { outline: 3px solid var(--navy, #1B2A4E); outline-offset: 3px; } .ds-wa-label { position: absolute; top: 50%; right: calc(100% + 12px); padding: 0.5rem 0.8rem; border-radius: 10px; background: #FFFFFF; color: var(--navy, #1B2A4E); font-family: \"Inter\", sans-serif; font-weight: 700; font-size: 0.9rem; white-space: nowrap; box-shadow: 0 2px 6px rgba(18, 28, 54, 0.06), 0 18px 36px -12px rgba(27, 42, 78, 0.22); opacity: 0; translate: 6px -50%; pointer-events: none; transition: opacity 0.25s, translate 0.35s cubic-bezier(0.16, 1, 0.3, 1); } .ds-wa:hover .ds-wa-label, .ds-wa:focus-visible .ds-wa-label { opacity: 1; translate: 0 -50%; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The A That Holds the Page",
+    "overview": "The brokerage's logo, a geometric A built from diagonal bands with three horizontal strokes across it, is not a badge parked in the corner. It is the system's structural material. Its legs grow into large navy and sky bands that cross the hero behind the portrait of the person who answers. They shrink into the slanted blue \"tarja\" under one word of every title, the slanted number plates of the steps, and the stripe texture on card corners, photo backings, placeholder frames and the footer ribbon. Its crossbar becomes the triple-stroke rule that links the steps and marks the values list. Anything new should be traceable back to one of those two parts of the letter.\n\nDeep navy fields bookend the page: the header and hero at the top, the closing band and footer at the bottom. In between, white and pale-ice sections alternate and carry calm, well-spaced reading. Blue is the voice of action, sky marks things on dark, sand gold appears exactly once, and WhatsApp green exists only on the floating button. Type is generous on purpose: 17px body, 48px controls and left-aligned section heads, so an older reader arriving from Instagram on a phone can follow it without effort.\n\nThe direction refuses the insurance-category default of a stock family photo over a blue gradient. Fields are flat color. Depth comes from the A bands and soft navy-tinted shadows, never from gradient washes or glassy effects on light surfaces. Motion is one brand gesture, the tarja wiping in under its word as each title enters view, plus quiet rises, so the page feels assembled by hand rather than animated for show.",
+    "keyCharacteristics": [
+      "The logo's A, at three scales: hero bands, title tarjas, 108deg stripe textures.",
+      "Uppercase Montserrat 800 titles, each with exactly one word on a blue parallelogram.",
+      "Deep navy at both ends of the page, with white and ice alternating between.",
+      "Two blues with separate jobs: a vivid one for graphics, an AA-darkened one for actions.",
+      "Single-use accents: gold for the \"+40\" seal only, green for the floating WhatsApp button only.",
+      "Soft, layered, navy-tinted shadows. Hover lifts a card by 4px.",
+      "Rounded but not bubbly: 12, 14, 16 and 20px radii, with circles reserved for seals and round buttons."
+    ],
+    "rules": [
+      {
+        "name": "The Two Blues Rule",
+        "body": "Tarja Blue is a graphic color and Action Blue is an interactive one. Anything with white text below display size sitting on blue (buttons, chat bubbles) uses Action Blue. Tarja Blue appears behind white text only in titles and the step numerals.",
+        "section": "colors"
+      },
+      {
+        "name": "The Single-Use Color Rule",
+        "body": "Gold belongs to the \"+40\" seal, and green belongs to the floating WhatsApp button. In-page WhatsApp calls to action are blue primary buttons carrying the WhatsApp glyph, never green.",
+        "section": "colors"
+      },
+      {
+        "name": "The Navy Is Ink Rule",
+        "body": "Text on light backgrounds is navy (#1B2A4E) or slate (#4A5878), never black or neutral grey. Text on dark backgrounds is white or mist.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Tarja Rule",
+        "body": "Every section title (and the privacy-page H1) is Montserrat 800 uppercase with exactly one word set on the blue parallelogram. Any punctuation after that word is pulled in by −0.14em so it hugs the tarja.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Hand Rule",
+        "body": "Caveat appears once per page, on one word. It is a signature, not a style.",
+        "section": "typography"
+      },
+      {
+        "name": "The Bookend Rule",
+        "body": "Dark fields open and close the page (night navy for the header and hero, brokerage navy for the closing band, night navy for the footer). Between them, white and ice sections alternate, and two light sections never share a background back to back.",
+        "section": "layout"
+      },
+      {
+        "name": "The Navy-Tinted Shadow Rule",
+        "body": "Shadows on light surfaces are tinted with the brand's navy (rgba 18 28 54 / 27 42 78), soft and offset downward. No neutral grey drops, no hard offset shadows.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Lift-on-Hover Rule",
+        "body": "Hover is a small physical lift, never a layout shift. Cards rise 4px and step from Rest to Raised (0.4s, ease-out), buttons rise 1px and press to 98% scale on click, and round buttons grow to 106%.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Logo Angle Rule",
+        "body": "Every slanted edge in the system (tarjas, step plates, stripes, the A bands, placeholder hatching) leans like the logo's left legs, about 18° off vertical. Never introduce a second slant angle.",
+        "section": "shapes"
+      },
+      {
+        "name": "The Triple Stroke Rule",
+        "body": "When a horizontal rule needs to say \"brand\" rather than \"divider\", it is three strokes (navy, sky, navy) in stepped lengths, never a single thick bar. Plain separators stay 1px hairlines.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do set every section title in Montserrat 800 uppercase with exactly one word on the Tarja Blue parallelogram, and let it wipe in once on entry.",
+      "Do use Action Blue (#1A76BE) for any button or filled surface carrying white text below display size, darkening to #155F9C on hover.",
+      "Do open and close each page on a navy field and alternate white and ice sections in between.",
+      "Do draw textures and brand rules from the logo: 108deg stripes, navy/sky/navy triple strokes, and the A bands.",
+      "Do keep buttons and tabs at 48px minimum (56px for hero and closing CTAs, 44px for the compact size), and keep running copy at 1rem or larger. Only metadata (roles, dates, fine print) drops to 0.85–0.875rem.",
+      "Do tint every light-surface shadow with navy and keep it soft and downward.",
+      "Do swap the focus ring to celeste inside dark sections and keep it a 3px outline at a 3px offset everywhere.",
+      "Do show missing photos as Deep Ice frames with 108deg white hatching, a camera tile and a bracketed label until real images arrive.",
+      "Do honor reduced motion by showing reveals in their final state and tarjas fully painted."
+    ],
+    "donts": [
+      "Don't put white text below display size on Tarja Blue (#1E88D2). It measures about 3.8:1.",
+      "Don't use sand gold anywhere but the \"+40\" seal, or WhatsApp green anywhere but the floating button.",
+      "Don't put more than one tarja word in a title or more than one Caveat word on a page.",
+      "Don't slant a band, plate or stripe at any angle other than the logo's (108deg, about 18° off vertical).",
+      "Don't fill fields or buttons with gradients. The only gradients are the hard-stop stripe patterns and the fade mask on the profile panel's stripes.",
+      "Don't use neutral grey or hard offset shadows on light surfaces.",
+      "Don't set text in pure black. Ink is navy or slate.",
+      "Don't stack a small label above section titles. The tarja is the emphasis device.",
+      "Don't open on a stock family photo over a blue gradient. The hero is a portrait of the person who answers, framed by the A bands."
+    ]
+  }
+}
